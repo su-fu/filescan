@@ -7,6 +7,21 @@ import (
 	"strings"
 )
 
+type InputLog struct {
+//	date time.Time
+	command string
+	value string
+}
+
+func NewInputLog(command string, value string) *InputLog {
+	i := new(InputLog)
+	i.command = command
+	i.value = value
+	return i
+}
+
+var InputLogArray []InputLog
+
 func main() {
 	file, err := os.Open(`test.txt`)
 	if err != nil {
@@ -20,8 +35,12 @@ func main() {
 			// error
 			break;
 		}
-		if strings.Index(sc.Text(), "XXXXX") != -1 {
-			fmt.Printf("%4d行目: %s\n", i, sc.Text())			
+		if strings.Contains(sc.Text(), "InputLog") {
+			s := strings.Split(sc.Text(), " ")[6]
+			command := strings.Split(s, ":")[0]
+			value := strings.Split(s, ":")[1]
+			InputLogArray = append(InputLogArray, *NewInputLog(command, value))
 		}
 	}
+	fmt.Println(InputLogArray)
 }

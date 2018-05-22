@@ -1,6 +1,14 @@
-05-10 19:47:27.811 12345 12345 D XXXXX: Abcd:AAAAA
+05-10 19:47:27.811 12345 12345 D InputLog: Unconfirmed:あ
 05-10 19:47:28.811 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-05-10 19:47:28.811 12345 12345 D XXXXX: Abcd:BBBBB
-05-10 19:47:28.811 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-05-10 19:47:28.811 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-05-10 19:47:29.811 12345 12345 D XXXXX: Abcd:BBBBB
+05-10 19:47:29.811 12345 12345 D InputLog: Unconfirmed:あき
+05-10 19:47:29.811 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+05-10 19:47:30.811 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+05-10 19:47:31.811 12345 12345 D InputLog: Unconfirmed:あきた
+05-10 19:47:32.811 12345 12345 D InputLog: Confirmed:秋田
+05-10 19:47:33.811 12345 12345 D InputLog: Key:DEL
+05-10 19:47:34.811 12345 12345 D InputLog: Key:DEL
+05-10 19:47:36.811 12345 12345 D InputLog: Unconfirmed:あ
+05-10 19:47:37.811 12345 12345 D InputLog: Unconfirmed:あき
+05-10 19:47:38.811 12345 12345 D InputLog: Unconfirmed:あきた
+05-10 19:47:39.811 12345 12345 D InputLog: Confirmed:飽きた
+05-10 19:47:41.811 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
